@@ -1,0 +1,41 @@
+
+.header {
+  margin-bottom:3em;
+}
+
+#heading {
+	font-weight: 500;
+	font-size: 4em;
+}
+
+#subheading {
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+
+/*Search icon inside*/
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}

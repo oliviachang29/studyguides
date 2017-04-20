@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: font-url('ProximaNova-Light.eot?') format('eot'), 
+	     font-url('ProximaNova-Light.otf')  format('opentype'),
+	     font-url('ProximaNova-Light.woff') format('woff'), 
+	     font-url('ProximaNova-Light.ttf')  format('truetype'),
+	     font-url('ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+	font-weight: 100;
+  font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: font-url('ProximaNova-LightIt.eot?') format('eot'), 
+	     font-url('ProximaNova-LightIt.otf')  format('opentype'),
+	     font-url('ProximaNova-LightIt.woff') format('woff'), 
+	     font-url('ProximaNova-LightIt.ttf')  format('truetype'),
+	     font-url('ProximaNova-LightIt.svg#ProximaNova-LightIt') format('svg');
+	font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: font-url('ProximaNova-Regular.eot?') format('eot'), 
+	     font-url('ProximaNova-Regular.otf')  format('opentype'),
+	     font-url('ProximaNova-Regular.woff') format('woff'), 
+	     font-url('ProximaNova-Regular.ttf')  format('truetype'),
+	     font-url('ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'ProximaNova-RegularIt';
+	src: font-url('ProximaNova-RegularIt.eot?') format('eot'), 
+	     font-url('ProximaNova-RegularIt.otf')  format('opentype'),
+	     font-url('ProximaNova-RegularIt.woff') format('woff'), 
+	     font-url('ProximaNova-RegularIt.ttf')  format('truetype'),
+	     font-url('ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg');
+	font-weight: 300;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: font-url('ProximaNova-Semibold.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: font-url('ProximaNova-SemiboldItalic.otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+a {
+	color: gray;
+	&:hover {
+		text-decoration: none;
+	}
+}
