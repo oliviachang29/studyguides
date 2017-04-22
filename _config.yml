@@ -35,7 +35,7 @@ sass:
 collections:
  guides:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:title
 plugins_dir:
  - jekyll-coffeescript
 

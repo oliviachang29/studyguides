@@ -7,12 +7,12 @@
 	background-color: white 
 }
 .iframe-container iframe {
+	margin-left: 20%;
 	display: block;
-	width: 65%; 
+	width: 80%; 
 	height: 100%; 
 	border: none;
 	background-color: #fff;
-	margin: 0 auto;
 }
 
 .iframe-container-landscape {
@@ -21,15 +21,15 @@
 	left: 0; 
 	right: 0;
 	bottom: 0; 
-	background-color: white;
+	background-color: white 
 }
 
 .iframe-container-landscape iframe {
+	margin-left: 10%;
 	display: block;
 	width: 90%; 
 	height: 100%; 
 	border: none;
-	margin: 0 auto;
 }
 
 .guide-title {
