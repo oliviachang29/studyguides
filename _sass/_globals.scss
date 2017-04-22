@@ -18,10 +18,20 @@ body {
   flex: 1;
 }
 
-.wrapper {
-  margin: 2em;
-}
-
 table tr td {
   border: none !important;
+}
+
+/* about */
+#made-by {
+  margin-top: 3em;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.svg-container {
+  margin-bottom: 3em;
+}
+.logo-svg {
+   
 }
