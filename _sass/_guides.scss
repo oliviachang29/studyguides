@@ -7,10 +7,10 @@
 	background-color: white 
 }
 .iframe-container iframe {
-	margin-left: 20%;
+	margin: 0 auto;
 	display: block;
 	width: 80%; 
-	height: 100%; 
+	height: 90%; 
 	border: none;
 	background-color: #fff;
 }
@@ -26,7 +26,7 @@
 
 .iframe-container-landscape iframe {
 	display: block;
-	width: 100%; 
+	width: 10%; 
 	height: 100%; 
 	border: none;
 }
@@ -37,5 +37,5 @@
 }
 
 .ad {
-	/*margin-top: 90%;*/
+	margin-top: 51%;
 }
