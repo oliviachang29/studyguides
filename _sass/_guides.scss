@@ -1,3 +1,4 @@
+/* iframe */
 .iframe-container {
 	position: absolute; 
 	top: 7em; 
@@ -10,7 +11,7 @@
 	margin: 0 auto;
 	display: block;
 	width: 80%; 
-	height: 90%; 
+	height: 100%; 
 	border: none;
 	background-color: #fff;
 }
@@ -27,15 +28,13 @@
 .iframe-container-landscape iframe {
 	display: block;
 	width: 100%; 
-	height: 90%; 
+	height: 100%; 
 	border: none;
 }
+
+/* end iframe */
 
 .guide-title {
 	margin: 0 auto;
 	text-align: center;
-}
-
-.guide-ad {
-	margin-top: 51%;
 }
