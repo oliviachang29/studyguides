@@ -21,10 +21,10 @@ layout: default
 	<li>We don't own any of the images, they belong to their respective owners </li>
 	<li>All info is for educational purposes only</li>
 	<li>Information is based on Google and Holt California Biology Textbook</li>
-	<li>Ads are for keeping this site alive</li>
+	<li>Any ads are for keeping this site alive</li>
 	<li>No, we don't use cookies</li>
 </ul>
 
 <p id="made-by">
-	Made with <3 by <a href="https://twitter.com/@oliviazyc">the creator of</a> <a href="https://readlio.com">Readlio.com</a>
+	Made with <3 by <a href="https://olivia.js.org">the creator of</a> <a href="https://readlio.com">Readlio.com</a>
 </p>
