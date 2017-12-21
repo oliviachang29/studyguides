@@ -26,5 +26,5 @@ layout: default
 </ul>
 
 <p id="made-by">
-	Made with <3 by <a href="https://olivia.js.org">the creator of</a> <a href="https://readlio.com">Readlio.com</a>
+	Made with by <a href="https://olivia.js.org">the creator of</a> <a href="https://readlio.com">Readlio.com</a>
 </p>
