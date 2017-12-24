@@ -1,13 +1,18 @@
 #bg {
-  /*width: 100%;*/
-  /*height: auto;*/
   background-size: cover;
   z-index: 0;
   background-image:url('/assets/images/icons.png');
   background-repeat:no-repeat;
-  /*background-size:contain;*/
   background-position:center;
   padding: 6em;
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+  }
+  padding-bottom: 10em;
+  margin-bottom: -6em;
+  
 }
 
 #logo {
@@ -21,17 +26,11 @@
 #hero-panel {
   margin: 0 auto;
   margin-bottom: 30px;
-  
-  width: 100%;
+  padding: 1em;
 
   /* Small Devices, Tablets */
   @media only screen and (min-width : 768px) {
     width: 50%;
-  }
-
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 992px) {
-    width: 40%;
   }
 
   /* Large Devices, Wide Screens */
@@ -63,10 +62,6 @@
   border-radius: 20px;
 }
 
-#bio-chem-panels {
-  margin-top: -100px;
-}
-
 #underline-bio {
   background-color: #5F7692;
 }
@@ -77,6 +72,10 @@
 
 .bio-chem-panel {
   padding: 2em;
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    padding: 1em;
+  }
 }
 
 .panel-title {

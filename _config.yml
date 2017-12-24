@@ -23,10 +23,10 @@ plugins_dir:
 collections:
   biology:
     output: true
-    permalink: /:collection/:title
+    permalink: /category/:collection/:title
   chemistry:
     output: true
-    permalink: /:collection/:title
+    permalink: /category/:collection/:title
 
 defaults:
   -

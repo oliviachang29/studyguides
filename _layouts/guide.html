@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-{% include navbar.html %}
-<div class="subheading">
+{% if page.category == "Biology" %}
+  {% assign color = "#5F7692" %}
+{% else %}
+  {% assign color = "#795F92" %}
+{% endif %}
+<div class="subheading" style="background-color: {{color}}">
   <div class="container">
     <div class="row">
         <p id="subheading-title">{{ page.title }}</p>
@@ -10,7 +14,7 @@ layout: default
         <p id="breadcrumbs">
           <a href="{{site.url}}">Home</a> 
           > 
-          <a href="{{site.url}}/bio">{{page.category}}</a>
+          <a href="{{site.url}}/category/{{page.category}}">{{page.category}}</a>
           >
           {{ page.title }}
         </p>

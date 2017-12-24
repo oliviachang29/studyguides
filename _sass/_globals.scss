@@ -29,3 +29,22 @@ table tr td {
   z-index: 1000;
   margin-bottom: 0;
 }
+
+#nav-logo {
+  float: left;
+/*  margin-top: 1em;
+  margin-left: 1em;*/
+  margin-right: 0.4em;
+}
+
+#navbar-brand {
+  /*margin-left: 0;*/
+}
+
+#navbar-collapse-area {
+  @media only screen and (max-width : 768px) {
+    background-color: white;
+  }
+  
+  border-bottom: 1px solid #E7E7E7;
+}
