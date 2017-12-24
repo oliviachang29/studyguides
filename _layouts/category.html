@@ -38,7 +38,7 @@ layout: default
     <p class="no-result">No results.</p>
     <tbody>
       <div class="row">
-        {% if page.slug == "Biology" %}
+        {% if page.title == "Biology" %}
           {% assign collection = site.biology %}
         {% else %}
           {% assign collection = site.chemistry %}
