@@ -1,15 +1,24 @@
 ---
 layout: default
 ---
+{% include navbar.html %}
+<div class="subheading">
+  <div class="container">
+    <div class="row">
+        <p id="subheading-title">{{ page.title }}</p>
+        <p id="subheading-description">{{page.description}}</p>
+        <p id="breadcrumbs">
+          <a href="{{site.url}}">Home</a> 
+          > 
+          <a href="{{site.url}}/bio">{{page.category}}</a>
+          >
+          {{ page.title }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<a href={{site.url}}>< Back</a>
-<h2 class="guide-title">{{ page.title }}</h2>
-{% if page.landscape == "true" %}
-	<div class="iframe-container-landscape">
-		<iframe src={{ page.link }} id="IFR" style="background-color: #fff;"></iframe>
-	</div>
-{% else %}
-	<div class="iframe-container">
-		<iframe src={{ page.link }} id="IFR" style="background-color: #fff;"></iframe>
-	</div>
-{% endif %}
+<div class="iframe-container">
+	<iframe src={{ page.link }} id="IFR" style="background-color: #fff;"></iframe>
+</div>

@@ -1,83 +1,96 @@
 ---
 layout: default
 ---
-<div class="header">
-  <!-- tablet/comp search -->
-  <div class="left-inner-addon form-group pull-right hidden-xs hidden-sm">
-    <i class="glyphicon glyphicon-search"></i>
-    <input type="text" class="search form-control" placeholder="Search">
-  </div>
-  <h1 id="heading">studyguides.science</h1>
-  <p id="subheading">a collection of science study guides, intended for high school use.</p>
-  <!-- mobile search -->
-  <div id="mobile-search-bar" class="left-inner-addon visible-xs visible-sm">
-    <i class="glyphicon glyphicon-search"></i>
-    <input type="text" class="search form-control" placeholder="Search">
+<div class="jumbotron" id="bg">
+  <div class="panel panel-default" id="hero-panel">
+    <div class="panel-body">
+      <img src="/assets/images/logo.png" id="logo"/>
+      <p id="hero-text">notes on biology and chemistry.</p>
+      <p id="hero-haha">(free! wow!!)</p>
+    </div>
   </div>
 </div>
 
-<table class="table results">
-    <tr class="warning no-result">
-      <td colspan="4"><i class="fa fa-warning"></i> No result</td>
-    </tr>
-  <tbody>
-    {% for guide in site.guides %}
-        <tr>
-          <td>
-            <a href="{{ guide.url }}">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title">{{ guide.title | escape }}</h3>
-                </div>
-                <div class="panel-body">
-                  {{ guide.description }}
-                </div>
-              </div>
-            </a>
-          </td>
-        </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div class="container">
 
-<div class="ad">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- chapterhouse -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-6379400738810441"
-       data-ad-slot="1186571012"
-       data-ad-format="auto"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  <div class="row" id="bio-chem-panels">
+    <a href="{{site.url}}/category/biology">
+      <div class="col-md-6">
+        <div class="panel panel-default bio-chem-panel">
+          <div class="panel-body">
+            <p class="panel-title">Biology</p>
+            <div class="underline" id="underline-bio"></div>
+            <p class="panel-text">
+              The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="{{site.url}}/category/chemistry">
+      <div class="col-md-6">
+        <div class="panel panel-default bio-chem-panel">
+          <div class="panel-body">
+            <p class="panel-title">Chemistry</p>
+            <div class="underline" id="underline-chem"></div>
+            <p class="panel-text">
+              The identification of the substances of which matter is composed; the investigation of their properties and the ways in which they interact, combine, and change; and the use of these processes to form new substances.
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div id="about">
+    <h1>About</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="question-answer">
+          <h4>What is studyguides.science?</h4>
+          <p>Studyguides.science is a collection of notes and studyguides for high schoolers taking biology or chemistry. It's completely free to use.</p>
+        </div>
+        <div class="question-answer">
+          <h4>Where did you get these notes?</h4>
+          <p>I took these notes while taking biology and chemistry honors myself. Much of the information is based on Google, Holt California Biology Textbook, and Modern Chemistry Textbook.</p>
+        </div>
+        <div class="question-answer">
+          <h4>I'm taking the SAT Bio/Chem subject test. How do I prepare?</h4>
+          <p>The Barron's SAT books, plus this website, holds nearly everything you'd need to prepare for the test. Make sure to take at least 3-4 practice tests before the actual test, and thoroughly read the Barron's book. Unless you feel mightily unprepared, you probably don't need any other books.</p>
+        </div>
+        <div class="question-answer">
+          <h4>I'm looking for chemistry practice questions. Where can I find them?</h4>
+          <p>I recommend <a href="http://chemteam.info/">chemteam.info</a>, which also happens to have an excellent humor section.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="question-answer">
+        <h4>Who are you?</h4>
+        <p>I'm someone who enjoys coding (a lot). Some of my other projects include</p>
+        <ul>
+          <li><a href="https://readlio.com">Readlio.com, an online reading log website for teachers and students.</a></li>
+          <li><a href="https://react.coach">React.coach, tutorials for React Native developers.</a></li>
+          <li><a href="https://www.youtube.com/watch?v=EZs5ZZv6OdI&t=1s">Mere, journaling made easy.</a></li>
+        </ul>
+      </div>
+      <div class="question-answer">
+        <h4>Can you design a website for me?</h4>
+        <p>Sure. Contact me at <a href="mailto:hello@studyguides.science">hello@studyguides.science</a> for more details.</p>
+      </div>
+      <div class="question-answer">
+        <h4>Other information</h4>
+        <ul>
+          <li>I claim no responsibility for inaccurate info, don't sue if you get a bad score on the SAT Bio/Chem</li>
+          <li>I don't own any of the images, they belong to their respective owners </li>
+          <li>All info is for educational purposes only</li>
+          <li></li>
+          <!-- <li>Any ads are for keeping this site alive</li> -->
+          <li>No, there aren't any cookies</li>
+          <li>Science vector icons were designed by Vecteezy.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".search").keyup(function () {
-      var searchTerm = $(".search").val();
-      var listItem = $('.results tbody').children('tr');
-      var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
-      
-    $.extend($.expr[':'], {'containsi': function(elem, i, match, array){
-          return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
-      }
-    });
-      
-    $(".results tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
-      $(this).attr('visible','false');
-    });
-
-    $(".results tbody tr:containsi('" + searchSplit + "')").each(function(e){
-      $(this).attr('visible','true');
-    });
-
-    var jobCount = $('.results tbody tr[visible="true"]').length;
-      $('.counter').text(jobCount + ' item');
-
-    if(jobCount == '0') {$('.no-result').show();}
-      else {$('.no-result').hide();}
-        });
-  });
-</script>

@@ -1,45 +1,95 @@
-
-.header {
-  margin-bottom:3em;
+#bg {
+  /*width: 100%;*/
+  /*height: auto;*/
+  background-size: cover;
+  z-index: 0;
+  background-image:url('/assets/images/icons.png');
+  background-repeat:no-repeat;
+  /*background-size:contain;*/
+  background-position:center;
+  padding: 6em;
 }
 
-#heading {
-	font-weight: 500;
-	font-size: 2.75em;
+#logo {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
 }
 
-#subheading {
-	font-weight: 300;
-	font-size: 1.5em;
+#hero-panel {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  
+  width: 100%;
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    width: 50%;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    width: 40%;
+  }
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+    width: 40%;
+  }
 }
 
-#mobile-search-bar {
-  margin-top: 1.5em;
+#hero-text {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 100;
 }
 
-.results tr[visible='false'],
-.no-result{
-  display:none;
+#hero-haha {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
 }
 
-.results tr[visible='true']{
-  display:table-row;
+.underline {
+  width: 5em;
+  height: 4px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
-.counter{
-  padding:8px; 
-  color:#ccc;
+#bio-chem-panels {
+  margin-top: -100px;
 }
 
-/*Search icon inside*/
-.left-inner-addon {
-    position: relative;
+#underline-bio {
+  background-color: #5F7692;
 }
-.left-inner-addon input {
-    padding-left: 30px;    
+
+#underline-chem {
+  background-color: #795F92; 
 }
-.left-inner-addon i {
-    position: absolute;
-    padding: 10px 12px;
-    pointer-events: none;
+
+.bio-chem-panel {
+  padding: 2em;
+}
+
+.panel-title {
+  font-size: 24px;
+  color: #000;
+}
+
+.panel-text {
+  color: #4A4A4A;
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+.question-answer {
+  margin-top: 30px;
 }
