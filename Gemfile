@@ -27,5 +27,4 @@ end
 gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
-gem 'puma'
 gem 'jekyll-coffeescript'
