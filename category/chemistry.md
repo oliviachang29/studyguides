@@ -1,6 +1,7 @@
 ---
-layout: category
 title: Chemistry
-color: "#795F92"
 permalink: "/category/chemistry/"
+layout: category
+color: "#795F92"
 ---
+

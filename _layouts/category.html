@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% for guide in site.categories[page.category] %}
     <a href="{{ guide.url | absolute_url }}">
       {{ guide.title }}
