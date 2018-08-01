@@ -1,22 +1,53 @@
 title: studyguides.science
+timezone: UTC
+collections:
+  biology:
+    title: Biology
+    output: true
+    permalink: "/category/:collection/:title"
+  chemistry:
+    title: Chemistry
+    output: true
+    permalink: "/category/:collection/:title"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: guides
+  values:
+    layout: guide
+- scope:
+    path: ''
+    type: category
+  values:
+    layout: category
 email: hello@studyguides.science
-description: >
-  A collection of science notes for school use.
-baseurl: ""
-url: "https://studyguides.science"
-host: localhost
+description: 'A collection of science notes for school use.
 
-# Build settings
+'
+baseurl: 
+url: https://studyguides.science
+host: localhost
 port: 4000
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 plugins_dir:
   - jekyll-minifier
   
