@@ -18,8 +18,8 @@ exclude:
 sass:
     sass_dir: _sass
 plugins_dir:
- - jekyll-coffeescript
-
+  - jekyll-minifier
+  
 collections:
   biology:
     output: true

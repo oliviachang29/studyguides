@@ -8,19 +8,13 @@
 @font-face {
   font-family: 'Colfax';
   src: url('../fonts/Colfax-Medium.ttf');
-  font-weight: 500;
+  font-weight: bold;
   font-style: normal;
 }
 
-@font-face {
-	font-family: 'Colfax';
-	src: url('../fonts/Colfax-Bold.ttf')  format('truetype');
-	font-weight: 700;
-  font-style: normal;
-}
-
-h4 {
+h1, h4 {
 	line-height: 30px;
+	font-weight: bold;
 }
 
 a {

@@ -38,8 +38,9 @@ table tr td {
   margin-right: 0.4em;
 }
 
-#navbar-brand {
-  /*margin-left: 0;*/
+.navbar-brand {
+  font-weight: bold;
+  color: black;
 }
 
 #navbar-collapse-area {
