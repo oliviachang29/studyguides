@@ -1,7 +1,7 @@
 ---
 layout: guide
-title: "Acids and Bases"
+title: "Equilibrium and Acids/Bases"
 category: "Chemistry"
-link: "https://docs.google.com/document/d/e/2PACX-1vQZyhywE_wQ9nFkFBgJcxK--n24aohPSFiAl0hlwKzFJXieK6aYJtla-B05ig7dJ1bTMmEcxoaYd04l/pub?embedded=true"
+link: "https://docs.google.com/document/d/1RCjeNiXEGxVHzVeJ0tzLGKl12AK71jZSYVa_5ldazU0/"
 description: "Equilibrium, ICE tables, Le Chatelier's Principle, acid/base definitions, titration."
 ---

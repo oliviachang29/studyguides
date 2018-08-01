@@ -4,10 +4,11 @@
 
 html {
 	height: 100%;
+  overflow-x: hidden;
 }
 
 body {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Colfax', sans-serif;
 	margin: 0;
 	height: 100%;
 	display: flex;
@@ -46,4 +47,21 @@ table tr td {
     background-color: white;
     border-bottom: 1px solid #E7E7E7;
   }
+}
+
+
+.panel {
+  padding: 2em;
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    padding: 1em;
+  }
+}
+
+.subheading {
+  margin-top: 40px;
+}
+
+#subheading-title {
+  margin: 30px 0 20px;
 }

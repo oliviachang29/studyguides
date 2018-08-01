@@ -2,6 +2,6 @@
 layout: guide
 title: "Evolution of Cellular Life"
 category: "Biology"
-link: "https://docs.google.com/document/d/1ls--1qz-TcQ41l9Pmm9D7ICBSESwAXy-r1zsOqS_AMo/pub?embedded=true"
+link: "https://docs.google.com/document/d/1ls--1qz-TcQ41l9Pmm9D7ICBSESwAXy-r1zsOqS_AMo/"
 description: "Life in prehistoric times."
 ---

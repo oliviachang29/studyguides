@@ -12,12 +12,12 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <p id="subheading-title">{{page.title}}</p>
-        <p id="subheading-description">{{page.description}}</p>
         <p id="breadcrumbs">
-          <a href="{{site.url}}">Home</a> 
-          > {{page.title}}
+          <a href="/">Home</a> 
+          / {{page.title}}
         </p>
+        <h1 id="subheading-title">{{page.title}}</h1>
+        <p id="subheading-description">{{page.description}}</p>
       </div>
       <div class="col-sm-6">
 
@@ -46,10 +46,9 @@ layout: default
             <tr>
               <td>
                   <a href="{{ guide.url }}">
-                    <div class="panel panel-default bio-chem-panel">
+                    <div class="panel panel-default">
                       <div class="panel-body">
-                        <p class="panel-title">{{ guide.title | escape }}</p>
-                        <div class="underline" style="background-color: {{page.color}}"></div>
+                        <h4 class="panel-title">{{ guide.title | escape }}</h4>
                         <p class="panel-text">{{ guide.description }}</p>
                       </div>
                       </div>

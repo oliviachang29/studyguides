@@ -1,82 +1,50 @@
 @font-face {
-	font-family: 'Proxima Nova';
-	src: url('../fonts/ProximaNova-Light.eot?') format('eot'), 
-	     url('../fonts/ProximaNova-Light.otf')  format('opentype'),
-	     url('../fonts/ProximaNova-Light.woff') format('woff'), 
-	     url('../fonts/ProximaNova-Light.ttf')  format('truetype'),
-	     url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
-	font-weight: 100;
-  font-style: normal;
-}
-
-
-@font-face {
-	font-family: 'Proxima Nova';
-	src: url('../fonts/ProximaNova-LightIt.eot?') format('eot'), 
-	     url('../fonts/ProximaNova-LightIt.otf')  format('opentype'),
-	     url('../fonts/ProximaNova-LightIt.woff') format('woff'), 
-	     url('../fonts/ProximaNova-LightIt.ttf')  format('truetype'),
-	     url('../fonts/ProximaNova-LightIt.svg#ProximaNova-LightIt') format('svg');
-	font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-	font-family: 'Proxima Nova';
-	src: url('../fonts/ProximaNova-Regular.eot?') format('eot'), 
-	     url('../fonts/ProximaNova-Regular.otf')  format('opentype'),
-	     url('../fonts/ProximaNova-Regular.woff') format('woff'), 
-	     url('../fonts/ProximaNova-Regular.ttf')  format('truetype'),
-	     url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-family: 'Colfax';
+	src: url('../fonts/Colfax-Regular.ttf')  format('truetype');
 	font-weight: 300;
   font-style: normal;
 }
 
-
 @font-face {
-	font-family: 'ProximaNova-RegularIt';
-	src: url('../fonts/ProximaNova-RegularIt.eot?') format('eot'), 
-	     url('../fonts/ProximaNova-RegularIt.otf')  format('opentype'),
-	     url('../fonts/ProximaNova-RegularIt.woff') format('woff'), 
-	     url('../fonts/ProximaNova-RegularIt.ttf')  format('truetype'),
-	     url('../fonts/ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg');
-	font-weight: 300;
-  font-style: italic;
-}
-
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('../fonts/ProximaNova-Semibold.otf');
+  font-family: 'Colfax';
+  src: url('../fonts/Colfax-Medium.ttf');
   font-weight: 500;
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('../fonts/ProximaNova-SemiboldItalic.otf');
-  font-weight: 500;
-  font-style: italic;
+	font-family: 'Colfax';
+	src: url('../fonts/Colfax-Bold.ttf')  format('truetype');
+	font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+	line-height: 30px;
 }
 
 a {
-	color: gray;
+	transition: .3s all;
 	&:hover {
 		text-decoration: none;
+		opacity: 0.5;
 	}
 }
 
 p {
 	color: #4A4A4A;
 	font-weight: 300;
+	font-size: 15px;
+	line-height: 24px;
 }
 
 li {
 	color: #4A4A4A;
 	font-weight: 300;
+	font-size: 15px;
 }
 
 strong {
-	font-weight: 500;	 
+	font-weight: 300;	 
+	font-size: 15px;
 }

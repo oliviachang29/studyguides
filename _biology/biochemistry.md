@@ -2,6 +2,6 @@
 layout: guide
 title: "Biochemistry"
 category: "Biology"
-link: "https://docs.google.com/document/d/1j6K6cScYDNGDpUD9TC-fQ8zIyIWizHcQ1sTus_0-Yio/pub?embedded=true"
+link: "https://docs.google.com/document/d/1j6K6cScYDNGDpUD9TC-fQ8zIyIWizHcQ1sTus_0-Yio/"
 description: "Information on molecules including carbohydrates, lipids, proteins, and nucleotides."
 ---

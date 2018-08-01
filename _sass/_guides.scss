@@ -3,12 +3,6 @@
 	background-color: white ;
 	border: 1px solid #D8D8D8;
 	height: 600px;
-	width: 80%;
-	/*mobile*/
-	@media only screen and (max-width : 768px) {
-	  	width: 99%;
-	  	margin-top: -30px;
-	}
 	margin: 0 auto;
 	
 }
@@ -26,4 +20,22 @@
 .guide-title {
 	margin: 0 auto;
 	text-align: center;
+}
+
+#google-drive-link {
+	margin-top: 30px;
+	transition: .3s all;
+	width: 230px;
+	img {
+		width: 30px;
+		height: auto;
+	}
+	span {
+		color: white;
+		margin-left: 10px;
+		font-size: 18px;
+	}
+	&:hover {
+		opacity: 0.8;
+	}
 }

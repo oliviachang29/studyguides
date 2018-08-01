@@ -1,26 +1,23 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-<div class="jumbotron" id="bg">
-  <div class="panel panel-default" id="hero-panel">
-    <div class="panel-body">
-      <img src="/assets/images/logo.png" id="logo"/>
-      <p id="hero-text">notes on biology and chemistry.</p>
+<div id="bg" class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <img src="/assets/images/hero-image.svg">
+    </div>
+    <div class="col-lg-6">
+      <p>A collection of science notes for school use.</p>
     </div>
   </div>
 </div>
-
 <div class="container">
-
   <div class="row">
-    <a href="{{site.url}}/category/biology">
+    <a href="/category/biology">
       <div class="col-md-6">
-        <div class="panel panel-default bio-chem-panel">
+        <div class="panel panel-default category-panel">
           <div class="panel-body">
-            <p class="panel-title">Biology</p>
+            <h4 class="panel-title">Biology</h4>
             <div class="underline" id="underline-bio"></div>
             <p class="panel-text">
               The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.
@@ -29,11 +26,11 @@ layout: default
         </div>
       </div>
     </a>
-    <a href="{{site.url}}/category/chemistry">
+    <a href="/category/chemistry">
       <div class="col-md-6">
-        <div class="panel panel-default bio-chem-panel">
+        <div class="panel panel-default category-panel">
           <div class="panel-body">
-            <p class="panel-title">Chemistry</p>
+            <h4 class="panel-title">Chemistry</h4>
             <div class="underline" id="underline-chem"></div>
             <p class="panel-text">
               The identification of the substances of which matter is composed; the investigation of their properties and the ways in which they interact, combine, and change; and the use of these processes to form new substances.
@@ -43,50 +40,45 @@ layout: default
       </div>
     </a>
   </div>
-
   <div id="about">
-    <h1>About</h1>
+    <div class="row" id="about-title">
+      <img src="/assets/images/cat.png" height="50px" id="cat"/>
+      <h1>About</h1>
+    </div>
+    <p><strong>Psst! If you attend PALY, be sure to check out <a href="https://paly.win">paly.win</a>, a (1) blazing fast (2) mobile friendly (3) actually navigatable website for checking the PALY calendar and more.</strong></p>
     <div class="row">
       <div class="col-md-6">
         <div class="question-answer">
           <h4>What is studyguides.science?</h4>
-          <p>Studyguides.science is a collection of notes and studyguides on biology and chemistry.</p>
+          <p>It's a a collection of notes and studyguides on biology and chemistry. Use it however you want, but please be ethical about it.</p>
+        </div>
+        <div class="question-answer">
+          <h4>Who is studyguides.science for?</h4>
+          <p>This website is aimed towards middle/high schoolers who need to prepare for science tests.</p>
         </div>
         <div class="question-answer">
           <h4>Where did you get these notes?</h4>
           <p>I took these notes while taking biology and chemistry honors myself. Much of the information is based on Google, Holt California Biology Textbook, and Modern Chemistry Textbook. I claim no responsibility for inaccurate info, please don't sue if you get a bad score on the SAT Bio/Chem.</p>
         </div>
+      </div>
+      <div class="col-md-6">
         <div class="question-answer">
           <h4>I'm taking the SAT Bio/Chem subject test. How do I prepare?</h4>
-          <p>The Barron's SAT books, plus this website, holds nearly everything you'd need to prepare for the test. Make sure to take at least 3-4 practice tests before the actual test, and thoroughly read the Barron's book. Unless you still feel mightily unprepared, you probably don't need any other books.</p>
+          <p>The Barrons' SAT books, plus this website, holds nearly everything you'd need to prepare for the test. Make sure to take at least 3-4 practice tests before the actual test, and thoroughly read the Barrons' book.</p>
         </div>
         <div class="question-answer">
           <h4>I'm looking for chemistry practice questions. Where can I find them?</h4>
           <p>I recommend <a href="http://chemteam.info/">chemteam.info</a>, which also happens to have an excellent humor section.</p>
         </div>
-      </div>
-    <div class="col-md-6">
-      <div class="question-answer">
-        <h4>Who are you?</h4>
-        <p>I'm someone who enjoys coding (a lot). Some of my other projects include</p>
-        <ul>
-          <li><a href="https://readlio.com">Readlio.com, an online reading log website for teachers and students.</a></li>
-          <li><a href="https://www.hellomere.com">Mere, journaling made easy.</a></li>
-        </ul>
-      </div>
-      <div class="question-answer">
-        <h4>Can you design a website for me?</h4>
-        <p>Sure. Contact me at <a href="mailto:hello@studyguides.science">hello@studyguides.science</a> for more details.</p>
-      </div>
-      <div class="question-answer">
-        <h4>Other information</h4>
-        <ul>
-          <li>I don't own any of the images, they belong to their respective owners</li>
-          <li>Science vector icons were designed by Vecteezy.com</li>
-        </ul>
+        <div class="question-answer">
+          <h4>Other information</h4>
+          <ul>
+            <li>I don't own any of the images, they belong to their respective owners</li>
+            <li>I can't vouch for information being 100% accurate. Please don't sue if you don't get an 800.</li>
+            <li>Illustration from <a href="https://undraw.co">Undraw.co</a>. Fellow designers - it's seriously amazing, check it out.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-{% include footer.html %}
+  {% include footer.html %}

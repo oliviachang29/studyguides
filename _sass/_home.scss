@@ -1,18 +1,38 @@
 #bg {
-  background-size: cover;
-  z-index: 0;
+  /*background-size: cover;
   background-image:url('/assets/images/icons.png');
   background-repeat:no-repeat;
-  background-position:center;
-  padding: 6em;
-  /* Extra Small Devices, Phones */ 
-  @media only screen and (max-width : 480px) {
-    padding-left: 1.2em;
-    padding-right: 1.2em;
+  background-position:center;*/
+  color: white;
+  padding: 8em 0 5em;
+  z-index: 0;
+  .row {
+    @media only screen and (min-width : 768px) {
+      display: flex;
+      align-items: center;
+    }
   }
-  padding-bottom: 10em;
-  margin-bottom: -6em;
-  
+  img {
+    width: 100%;
+    @media only screen and (max-width : 768px) {
+      width: 50%;
+      margin-left: 25%;
+    }
+  }
+  p {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: bold;
+    margin-left: 5%;
+    @media only screen and (max-width : 768px) {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
 }
 
 #logo {
@@ -21,38 +41,6 @@
   margin-top: 30px;
   margin-bottom: 30px;
   display: block;
-}
-
-#hero-panel {
-  margin: 0 auto;
-  margin-bottom: 30px;
-  padding: 1em;
-
-  /* Small Devices, Tablets */
-  @media only screen and (min-width : 768px) {
-    width: 50%;
-  }
-
-  /* Large Devices, Wide Screens */
-  @media only screen and (min-width : 1200px) {
-    width: 40%;
-  }
-}
-
-#hero-text {
-  color: black;
-  font-size: 24px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-weight: 100;
-}
-
-#hero-haha {
-  color: black;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 100;
 }
 
 .underline {
@@ -70,11 +58,23 @@
   background-color: #795F92; 
 }
 
-.bio-chem-panel {
-  padding: 2em;
-  /* Extra Small Devices, Phones */ 
-  @media only screen and (max-width : 480px) {
-    padding: 1em;
+#about-title {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0 15px;
+}
+
+#cat {
+  margin-right: 10px;
+}
+
+.category-panel {
+  padding-bottom: 1em;
+  @media only screen and (min-width : 992px) {
+    min-height: 300px;
+  }
+  @media only screen and (min-width : 1200px) {
+    min-height: 260px;
   }
 }
 
@@ -86,14 +86,8 @@
 .panel-text {
   color: #4A4A4A;
   margin-top: 24px;
-  font-size: 14px;
 }
 
 .question-answer {
-  margin-top: 30px;
-}
-
-#cat {
-  /*margin-left: 20px;
-  margin-bottom: -10px;*/
+  margin-bottom: 24px;
 }

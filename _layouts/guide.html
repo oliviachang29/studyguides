@@ -8,23 +8,28 @@ layout: default
 {% endif %}
 <div class="subheading" style="background-color: {{color}}">
   <div class="container">
-    <div class="row">
-        <p id="subheading-title">{{ page.title }}</p>
-        <p id="subheading-description">{{page.description}}</p>
-        <p id="breadcrumbs">
-          <a href="{{site.url}}">Home</a> 
-          > 
-          <a href="{{site.url}}/category/{{page.category}}">{{page.category}}</a>
-          >
-          {{ page.title }}
-        </p>
+    <p id="breadcrumbs">
+      <a href="/">Home</a>
+      /
+      <a href="/category/{{page.category}}">{{page.category}}</a>
+      /
+      {{ page.title }}
+    </p>
+    <p id="subheading-title">{{ page.title }}</p>
+    <p id="subheading-description">{{page.description}}</p>
+    <a href="{{ page.link }}" target="_blank">
+      <div id="google-drive-link">
+        <img src="/assets/images/gdrive.png">
+        <span>View on Google Drive</span>
       </div>
-    </div>
+    </a>
   </div>
 </div>
 
-<div class="iframe-container">
-	<iframe src={{ page.link }} id="IFR" style="background-color: #fff;"></iframe>
-</div>
+
+  <div class="container iframe-container">
+    <iframe src="{{ page.link }}pub?embedded=true" id="IFR" style="background-color: #fff;"></iframe>
+  </div>
+
 
 {% include footer.html class="footer-guide" %}

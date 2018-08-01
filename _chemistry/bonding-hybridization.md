@@ -2,6 +2,6 @@
 layout: guide
 title: "Bonding and Hybridization"
 category: "Chemistry"
-link: "https://docs.google.com/document/d/e/2PACX-1vSIEwe6PzazoxAR0QcSRH4v9ygEFdo2xkDoFZK3pCUTWwSdtDwK568jRzaNfPkhb9VTwCYiw0KFUbO5/pub?embedded=true"
+link: "https://docs.google.com/document/d/1jvfIg27aQoYUxmx14GiovnC40gLKfA5aXbPp_Up8IuM/"
 description: "Covalent and ionic bonds, and Lewis Dot structures."
 ---
