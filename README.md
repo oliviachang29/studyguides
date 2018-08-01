@@ -1,6 +1,6 @@
 # [studyguides.science](https://studyguides.science)
 
-<img src="/assets/images/demo.png" width="100%">
+<img src="https://s3.amazonaws.com/github-demo-images/studyguides.png" width="100%">
 
 **A collection of science notes for school use.**
 * This site runs on Jekyll.
