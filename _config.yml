@@ -1,3 +1,4 @@
+---
 title: studyguides.science
 timezone: UTC
 collections:
@@ -49,32 +50,4 @@ exclude:
 sass:
   sass_dir: _sass
 plugins_dir:
-  - jekyll-minifier
-  
-collections:
-  biology:
-    output: true
-    permalink: /category/:collection/:title
-  chemistry:
-    output: true
-    permalink: /category/:collection/:title
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-  -
-    scope:
-      path: ""
-      type: guides
-    values:
-      layout: guide
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: category
+- jekyll-minifier
