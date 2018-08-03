@@ -1,20 +1,16 @@
 ---
 layout: default
 ---
-
-{% if page.category == "Biology" %}
-  {% assign color = "#5F7692" %}
-{% else %}
-  {% assign color = "#795F92" %}
-{% endif %}
+{% capture cat_name %}{{page.categories}}{% endcapture %}
+{% assign category = site.category | where: "title", cat_name | first %}
 <div class="subheading" style="background-color: {{color}}">
   <div class="container">
     <p id="breadcrumbs">
-      <strong><a href="/">Home</a></strong>
+      <a href="/">Home</a>
       /
-      <strong><a href="/category/{{page.categories}}">{{page.categories}}</a></strong>
+      <a href="/category/{{page.categories}}">{{category.long_title}}</a>
       /
-      {{ page.title }}
+      <strong>{{ page.title }}</strong>
     </p>
     <h1 id="subheading-title">{{ page.title }}</h1>
     <p id="subheading-description">{{page.description}}</p>

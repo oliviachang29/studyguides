@@ -13,10 +13,10 @@ layout: default
     <div class="row">
       <div class="col-sm-6">
         <p id="breadcrumbs">
-          <a href="/"><strong>Home</strong></a> 
-          / {{page.title}}
+          <a href="/">Home</a> 
+          / <strong>{{page.long_title}}</strong>
         </p>
-        <h1 id="subheading-title">{{page.title}}</h1>
+        <h1 id="subheading-title">{{page.long_title}}</h1>
         <p id="subheading-description">{{page.description}}</p>
       </div>
       <div class="col-sm-6">
@@ -37,13 +37,7 @@ layout: default
     <p class="no-result">No results.</p>
     <tbody>
       <div class="row">
-        {% if page.category == "biology" %}
-          {% assign collection = site.biology %}
-        {% elsif page.category == "chemistry" %}
-          {% assign collection = site.chemistry %}
-        {% elsif page.category == "apcs" %}
-          {% assign collection = site.apcs %}
-        {% endif %}
+        {% assign collection = site.guide | where: "categories", page.title %}
         {% for guide in collection %}
             <tr>
               <td>

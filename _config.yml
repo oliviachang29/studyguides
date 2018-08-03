@@ -5,23 +5,13 @@ collections:
   category:
     title: Category
     output: true
-    permalink: "/category/:title"
+    permalink: "/:collection/:title"
     layout: "category"
     type: "categories"
-  biology:
-    title: Biology
+  guide:
+    title: Guide
     output: true
-    permalink: "/category/:collection/:title"
-    layout: "guide"
-  chemistry:
-    title: Chemistry
-    output: true
-    permalink: "/category/:collection/:title"
-    layout: "guide"
-  apcs:
-    title: APCS
-    output: true
-    permalink: "/category/:collection/:title"
+    permalink: "/category/:categories/:title"
     layout: "guide"
 defaults:
 - scope:

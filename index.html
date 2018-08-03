@@ -4,25 +4,21 @@ layout: default
 
 <div id="bg" class="container">
   <div class="row">
-    <div class="col-lg-6">
       <img src="/assets/images/hero-image.svg">
-    </div>
-    <div class="col-lg-6">
       <p>A collection of <br>notes on <span
      class="txt-rotate"
      data-period="2000"
-     data-rotate='["VSEPR", "recursion", "atoms", "evolution", "planarians", "quicksort", "hexadecimals", "nerve cells", "hybridization", "equilibrium", "DNA", "CRISPR-Cas9", "polymorphism", "ArrayLists", "cell transport", "meiosis", "lipids"]'></span>.</p>
-    </div>
+     data-rotate='["VSEPR", "recursion", "atoms", "evolution", "planarians", "quicksort", "nerve cells", "equilibrium", "DNA", "CRISPR-Cas9", "radiometric dating", "waves", "ArrayLists", "cell transport", "meiosis", "lipids", "enthalpy", "periodicity", "nucleotides"]'></span>.</p>
   </div>
 </div>
 <div class="container">
   <div class="row">
     {% for category in site.category reversed %}
       <a href="{{category.url}}">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="panel panel-default category-panel">
             <div class="panel-body">
-              <h4 class="panel-title">{{category.title}}</h4>
+              <h4 class="panel-title">{{category.long_title}}</h4>
               <div class="underline" style="background-color: {{category.color}}"></div>
               <p class="panel-text">
                 {{category.description}}
