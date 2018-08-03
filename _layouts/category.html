@@ -37,10 +37,12 @@ layout: default
     <p class="no-result">No results.</p>
     <tbody>
       <div class="row">
-        {% if page.title == "Biology" %}
+        {% if page.category == "biology" %}
           {% assign collection = site.biology %}
-        {% else %}
+        {% elsif page.category == "chemistry" %}
           {% assign collection = site.chemistry %}
+        {% elsif page.category == "apcs" %}
+          {% assign collection = site.apcs %}
         {% endif %}
         {% for guide in collection %}
             <tr>

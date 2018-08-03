@@ -8,49 +8,34 @@ layout: default
       <img src="/assets/images/hero-image.svg">
     </div>
     <div class="col-lg-6">
-      <p>A collection of <br><span
+      <p>A collection of <br>notes on <span
      class="txt-rotate"
      data-period="2000"
-     data-rotate='[ "science", "biology", "chemistry"]'></span> notes for
-     <br>school use.</p>
+     data-rotate='["VSEPR", "recursion", "atoms", "evolution", "planarians", "quicksort", "hexadecimals", "nerve cells", "hybridization", "equilibrium", "DNA", "CRISPR-Cas9", "polymorphism", "ArrayLists", "cell transport", "meiosis", "lipids"]'></span>.</p>
     </div>
   </div>
 </div>
 <div class="container">
   <div class="row">
-    <a href="/category/biology">
-      <div class="col-md-6">
-        <div class="panel panel-default category-panel">
-          <div class="panel-body">
-            <h4 class="panel-title">Biology</h4>
-            <div class="underline" id="underline-bio"></div>
-            <p class="panel-text">
-              The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.
-            </p>
+    {% for category in site.category reversed %}
+      <a href="{{category.url}}">
+        <div class="col-md-6">
+          <div class="panel panel-default category-panel">
+            <div class="panel-body">
+              <h4 class="panel-title">{{category.title}}</h4>
+              <div class="underline" style="background-color: {{category.color}}"></div>
+              <p class="panel-text">
+                {{category.description}}
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </a>
-    <a href="/category/chemistry">
-      <div class="col-md-6">
-        <div class="panel panel-default category-panel">
-          <div class="panel-body">
-            <h4 class="panel-title">Chemistry</h4>
-            <div class="underline" id="underline-chem"></div>
-            <p class="panel-text">
-              The identification of the substances of which matter is composed; the investigation of their properties and the ways in which they interact, combine, and change; and the use of these processes to form new substances.
-            </p>
-          </div>
-        </div>
-      </div>
-    </a>
+      </a>
+    {% endfor %}
   </div>
   <div id="about">
-    <div class="row" id="about-title">
-      <img src="/assets/images/cat.png" height="50px" id="cat"/>
-      <h1>About</h1>
-    </div>
-    <p><strong>Psst! If you attend PALY, be sure to check out <a href="https://paly.win">paly.win</a>, a (1) blazing fast (2) mobile friendly (3) actually navigatable website for checking the PALY calendar and more.</strong></p>
+    <h1 id="about-title">About</h1>
+    <p><strong>Psst! If you attend PALY, be sure to check out <a href="https://paly.win" target="_blank">paly.win</a>, a (1) blazing fast (2) mobile friendly (3) actually navigatable website for checking the PALY calendar and more.</strong></p>
     <div class="row">
       <div class="col-md-6">
         <div class="question-answer">
@@ -63,7 +48,9 @@ layout: default
         </div>
         <div class="question-answer">
           <h4>Where did you get these notes?</h4>
-          <p>I took these notes while taking biology and chemistry honors myself. Much of the information is based on Google, Holt California Biology Textbook, and Modern Chemistry Textbook. I claim no responsibility for inaccurate info, please don't sue if you get a bad score on the SAT Bio/Chem.</p>
+          <p>I took these notes while taking biology and chemistry honors myself. Much of the information is based on Google, Holt California Biology Textbook, and Modern Chemistry Textbook.</p>
+          <p>Creds to <a href="https://www.youtube.com/channel/UCbDYp7zoLXz5T41LKHnJUQA" target="_blank">Ashley Xu</a> for her APCS notes.</p>
+          <img src="/assets/images/cat.png" height="50px" id="cat"/>
         </div>
       </div>
       <div class="col-md-6">
@@ -73,14 +60,14 @@ layout: default
         </div>
         <div class="question-answer">
           <h4>I'm looking for chemistry practice questions. Where can I find them?</h4>
-          <p>I recommend <a href="http://chemteam.info/">chemteam.info</a>, which also happens to have an excellent humor section.</p>
+          <p>I recommend <a href="http://chemteam.info/" target="_blank">chemteam.info</a>, which also happens to have an excellent humor section.</p>
         </div>
         <div class="question-answer">
           <h4>Other information</h4>
           <ul>
             <li>I don't own any of the images, they belong to their respective owners</li>
             <li>I can't vouch for information being 100% accurate. Please don't sue if you don't get an 800.</li>
-            <li>Illustration from <a href="https://undraw.co">Undraw.co</a>. Fellow designers - it's seriously amazing, check it out.</li>
+            <li>Illustration from <a href="https://undraw.co" target="_blank">Undraw.co</a>. Fellow designers - it's seriously amazing, check it out.</li>
           </ul>
         </div>
       </div>

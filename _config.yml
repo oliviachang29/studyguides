@@ -2,20 +2,27 @@
 title: studyguides.science
 timezone: UTC
 collections:
+  category:
+    title: Category
+    output: true
+    permalink: "/category/:title"
+    layout: "category"
+    type: "categories"
   biology:
     title: Biology
     output: true
     permalink: "/category/:collection/:title"
+    layout: "guide"
   chemistry:
     title: Chemistry
     output: true
     permalink: "/category/:collection/:title"
-  posts:
-    title: Posts
+    layout: "guide"
+  apcs:
+    title: APCS
     output: true
-  uploads:
-    title: Uploads
-    output: true
+    permalink: "/category/:collection/:title"
+    layout: "guide"
 defaults:
 - scope:
     path: ''
