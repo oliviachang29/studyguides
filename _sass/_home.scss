@@ -1,23 +1,19 @@
 #bg {
-    /*background-size: cover;
-  background-image:url('/assets/images/icons.png');
-  background-repeat:no-repeat;
-  background-position:center;*/
-    color: white;
-    padding: 5em 0;
-    z-index: 0;
-    .row {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    img {
-        width: 50%;
-        @media only screen and (min-width: 1200px) {
-          height: 50vh;
-          width: auto;
-        }
-    }
+  color: white;
+  padding: 8em 0 5em;
+  z-index: 0;
+  .row {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  img {
+      width: 50%;
+      @media only screen and (min-width: 1200px) {
+        height: 50vh;
+        width: auto;
+      }
+  }
 
   p {
       font-weight: bold;
