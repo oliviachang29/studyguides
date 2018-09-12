@@ -1,5 +1,5 @@
 ---
-title: Reaction Energy
+title: "Unit 10: Reaction Energy"
 categories:
 - chem_h
 layout: guide

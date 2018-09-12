@@ -1,5 +1,5 @@
 ---
-title: Chemical Reactions and Stoichiometry
+title: "Unit 6: Chemical Reactions and Stoichiometry"
 categories:
 - chem_h
 layout: guide

@@ -1,5 +1,5 @@
 ---
-title: Equilibrium and Acids/Bases
+title: "Unit 9: Equilibrium and Acids/Bases"
 categories:
 - chem_h
 layout: guide
