@@ -41,7 +41,7 @@ layout: default
         {% for guide in collection %}
             <tr>
               <td>
-                  <a href="{{ guide.url }}">
+                  <a href="{{ guide.link }}" target="_blank">
                     <!-- Otherwise won't show hover anim for some reason -->
                     <div class="col-md-12">
                     <div class="panel panel-default">
@@ -57,4 +57,3 @@ layout: default
         {% endfor %}
     </tbody>
   </table>
-{% include footer.html %}
