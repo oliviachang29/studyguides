@@ -1,5 +1,5 @@
 ---
-title: "Unit 8: Solutions"
+title: 'Unit 8: Solutions'
 categories:
 - chem_h
 layout: guide

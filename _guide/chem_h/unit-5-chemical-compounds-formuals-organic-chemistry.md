@@ -1,5 +1,5 @@
 ---
-title: "Unit 5: Chemical Compounds, Formulas, and Organic Chemistry"
+title: 'Unit 5: Chemical Compounds, Formulas, and Organic Chemistry'
 categories:
 - chem_h
 layout: guide

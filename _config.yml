@@ -6,13 +6,19 @@ collections:
     title: Category
     output: true
     permalink: "/:collection/:title"
-    layout: "category"
-    type: "categories"
+    layout: category
+    type: categories
   guide:
     title: Guide
     output: true
     permalink: "/category/:categories/:title"
-    layout: "guide"
+    layout: guide
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''

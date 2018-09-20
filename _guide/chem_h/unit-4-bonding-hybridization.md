@@ -1,5 +1,5 @@
 ---
-title: "Unit 4: Bonding and Hybridization"
+title: 'Unit 4: Bonding and Hybridization'
 categories:
 - chem_h
 layout: guide

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% capture cat_name %}{{page.categories}}{% endcapture %}
 {% assign category = site.category | where: "title", cat_name | first %}
 <div class="subheading" style="background-color: {{color}}">

@@ -1,5 +1,5 @@
 ---
-title: "Chapter 6: Arrays, ArrayLists"
+title: 'Chapter 6: Arrays, ArrayLists'
 categories:
 - apcs
 layout: guide

@@ -1,5 +1,5 @@
 ---
-title: "Unit 7: Intermolecular Forces and States of Matter"
+title: 'Unit 7: Intermolecular Forces and States of Matter'
 categories:
 - chem_h
 layout: guide

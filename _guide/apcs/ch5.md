@@ -1,5 +1,5 @@
 ---
-title: "Chapter 5: Program Design/Analysis"
+title: 'Chapter 5: Program Design/Analysis'
 categories:
 - apcs
 layout: guide

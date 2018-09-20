@@ -1,5 +1,5 @@
 ---
-title: "Chapter 4: Standard Classes"
+title: 'Chapter 4: Standard Classes'
 categories:
 - apcs
 layout: guide

@@ -1,5 +1,5 @@
 ---
-title: "Unit 2: Chemistry Foundations"
+title: 'Unit 2: Chemistry Foundations'
 categories:
 - chem_h
 layout: guide

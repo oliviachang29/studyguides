@@ -1,5 +1,5 @@
 ---
-title: "Unit 3: Electrons in Atoms and Periodicity"
+title: 'Unit 3: Electrons in Atoms and Periodicity'
 categories:
 - chem_h
 layout: guide

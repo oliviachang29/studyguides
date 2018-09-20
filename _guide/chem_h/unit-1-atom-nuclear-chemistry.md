@@ -1,5 +1,5 @@
 ---
-title: "Unit 1: The Atom and Nuclear Chemistry"
+title: 'Unit 1: The Atom and Nuclear Chemistry'
 categories:
 - chem_h
 layout: guide

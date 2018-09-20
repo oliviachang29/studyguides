@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Basics"
+title: 'Chapter 1: Basics'
 categories:
 - apcs
 layout: guide

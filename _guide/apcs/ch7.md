@@ -1,5 +1,5 @@
 ---
-title: "Chapter 7: Recursion"
+title: 'Chapter 7: Recursion'
 categories:
 - apcs
 layout: guide
