@@ -1,8 +1,9 @@
 ---
 title: physics_h
-date: 2018-09-22 18:23:00 Z
-color: "#D81159"
+permalink: "/category/physics_h/"
+color: "#cc2e67"
 long_title: Physics Honors
+order: 3
 description: The science that deals with the structure of matter and the interactions
   between the fundamental constituents of the observable universe.
 ---

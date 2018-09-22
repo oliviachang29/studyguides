@@ -33,14 +33,12 @@ table tr td {
 
 #nav-logo {
   float: left;
-/*  margin-top: 1em;
-  margin-left: 1em;*/
   margin-right: 0.4em;
 }
 
 .navbar-brand {
   font-weight: bold;
-  color: black;
+  color: black !important;
 }
 
 #navbar-collapse-area {

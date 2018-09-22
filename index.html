@@ -4,16 +4,18 @@ layout: default
 
 <div id="bg" class="container">
   <div class="row">
-      <img src="/assets/images/hero-image.svg">
-      <p>A collection of <br>notes on <span
+    <img src="/assets/images/hero-image-2.svg" class="visible-sm visible-xs">
+    <p>A collection of <br>notes on <span
      class="txt-rotate"
      data-period="2000"
-     data-rotate='["VSEPR", "recursion", "atoms", "evolution", "planarians", "quicksort", "nerve cells", "equilibrium", "DNA", "CRISPR-Cas9", "radiometric dating", "waves", "ArrayLists", "cell transport", "meiosis", "lipids", "enthalpy", "periodicity", "nucleotides"]'></span>.</p>
+     data-rotate='["VSEPR", "kinematics", recursion", "atoms", "evolution", "planarians", "quicksort", "nerve cells", "equilibrium", "DNA", "CRISPR-Cas9", "radiometric dating", "waves", "ArrayLists", "cell transport", "meiosis", "lipids", "enthalpy", "periodicity", "nucleotides"]'></span>.</p>
+    <img src="/assets/images/hero-image-2.svg" class="hidden-sm hidden-xs">
   </div>
 </div>
 <div class="container" id="guides">
   <div class="row">
-    {% for category in site.category reversed %}
+    {% assign categories = site.category | sort: "order" %}
+    {% for category in categories %}
       <a href="{{category.url}}">
         <div class="col-md-6">
           <div class="panel panel-default category-panel">
