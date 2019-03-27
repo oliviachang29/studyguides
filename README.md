@@ -14,7 +14,7 @@ Don't know how to code? Email me at **hello@studyguides.science** and send me yo
 
 ### Formatting guides
 
-Guides should[look like this](https://docs.google.com/document/d/19nukW7pR2KgPvbp1CCWFlNKSGWQ9ll4RSdaApK31mQk/edit?usp=sharing).
+Guides should [look like this](https://docs.google.com/document/d/19nukW7pR2KgPvbp1CCWFlNKSGWQ9ll4RSdaApK31mQk/edit?usp=sharing).
 11pt Proxima Nova and tables with 0px border.
 
 All new guides go under the _guide folder. The folders (apcs, biology, chemistry) are there only for organization. Jekyll will NOT add categories automatically. Each file needs to be prepended with the following frontmatter:
