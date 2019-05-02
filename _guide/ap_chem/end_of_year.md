@@ -6,3 +6,4 @@ link: https://docs.google.com/document/d/1Ltx-Jvbxtpa3QTiNeEfLspyWAIZqqHe3fUcBep
 description: Hard concepts from the year.
 layout: guide
 ---
+
